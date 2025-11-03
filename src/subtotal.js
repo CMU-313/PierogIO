@@ -26,7 +26,7 @@ function subtotal(order) {
     total += itemCost;
   }
 
-  return -total;
+  return total;
 }
 
 module.exports = { subtotal };
